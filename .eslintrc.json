@@ -1,0 +1,20 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es2021": true
+  },
+  "extends": [
+    "standard",
+    "plugin:mocha/recommended"
+  ],
+  "parserOptions": {
+  },
+  "rules": {
+    "mocha/no-mocha-arrows": 0
+  },
+  "globals": {
+    "expect": true,
+    "sinon": true
+  }
+}
